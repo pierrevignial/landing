@@ -1,0 +1,29 @@
+.banner {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-image: url(../../images/background.png);
+  color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size:30px;
+  margin: 10px auto;
+}
+
+.banner-description {
+  font-size: 20px;
+  opacity: 0.7;
+  margin: 10px auto;
+}
+
+.banner .btn-green {
+  margin: 10px auto;
+  font-size: 20px;
+}

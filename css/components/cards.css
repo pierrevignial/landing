@@ -1,0 +1,29 @@
+.main-card {
+  width: 235px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 350px;
+  margin: 45px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.main-card img {
+  width: 150px;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+.main-card-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+.main-card-text {
+  font-size: 12px;
+  margin: 0 20px;
+}
